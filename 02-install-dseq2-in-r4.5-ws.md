@@ -15,3 +15,4 @@ Install `Biostrings` Bioconductor packages using `BiocManager::install()` functi
 ```{R}
 BiocManager::install("Biostrings")
 ```
+conda deactivate
