@@ -2,8 +2,11 @@
 I am Creating a conda environment for DESeq2 data analysis with R and Bioconductor in my windows system using Windows Subsystem Linux (WSL)
 
 ## Code in WSL terminal
--Start the WSL in Windows
--Type the following to create a conda environment for R4.5 name as R4.5WS
+- Start the WSL in Windows
+
+- Type the following to create a conda environment for R4.5 name as R4.5WS
+
+
 ```{CMD}
 conda create --name R4.5WS
 ```
@@ -11,5 +14,10 @@ conda create --name R4.5WS
 ```{CMD}
 conda activate R4.5WS
 ```
-conda activate R4.5WS
+- Install R4.5 in the R4.5WS conda environment
+```{CMD}
+conda install conda-forge::r-base
 ```
+`conda-forge` is the channel from anaconda.org.  [conda-forge channel for r-base R4.5.2](https://anaconda.org/channels/conda-forge/packages/cross-r-base)
+
+
