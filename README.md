@@ -4,6 +4,6 @@ ACBR Winter School, Level 1 DESeq2 tutorial
 # Scholar detail
 - Name: Fatima
 - About: PhD scholar (1st Year) at JHU, New Delhi
-# about this repository\
+# about this repository
 
 i am Fatima, and I am trying to replicate the RNAseq data analysis with DESeq2 Bioconductor Packages.
